@@ -17,7 +17,11 @@ public class frontEnd {
 		String searchString = "test";
 		String specifyLanguage = "Italiano";
 		 WebDriver driver =  new HtmlUnitDriver();
-		 //Navigate to the Wikipedia home page, http://www.wikipedia.org/.
+		 
+		 /**
+		  * Navigate to the Wikipedia home page, http://www.wikipedia.org/.
+		  */
+		 
 		 driver.get("http://www.wikipedia.org/");
 		 
 		 /**
@@ -34,9 +38,6 @@ public class frontEnd {
 		 WebElement searchButton = driver.findElement(By.name("go"));
 		 searchButton.click();
 		 
-		 
-		 //WebDriverWait wait = new WebDriverWait(driver, 5);
-		// wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("content")));
 		 /**
 		  * Validate that the first heading of the search results page matches the search string (ignoring the case)
 		 */
