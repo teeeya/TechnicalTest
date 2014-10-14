@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.Select;
  * @author Fathea Chowdhury
  *
  */
-public class frontEnd {
+public class FrontEnd {
 
 	public static void main(String[] args) {
 		String searchString = "test";

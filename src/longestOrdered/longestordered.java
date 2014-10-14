@@ -3,7 +3,7 @@ package longestOrdered;
  * @author Fathea Chowdhury
  *
  */
-public class longestordered {
+public class Longestordered {
 	
 	public static void main(String[] params) {
 		int[] sequence = { 0,1,2,3,4,5,6,100,2,3,3,3};
