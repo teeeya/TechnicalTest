@@ -1,1 +1,1 @@
-Techincal Test
+Technical Test for interview
